@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.container {
+    background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img/1527ad97-unsplash-xkkcui44im0_12yo1z4000000000000028.jpg");
+    min-height: 100%;
+    position: relative;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.logo {
+    margin: 50px 300px;
+    float: left;
+    top: 100px;
+}
+.main_text h1, h2, h3, h4, a{
+    font-family: Montserrat ;
+    color: #f8eeee;
+    position:absolute ;
+    font-style: inherit;
+    padding: 10px 0;
+    left: 300px;
+
+}
+
+h1 {  
+    top: 170px;
+    font-size: 72px;
+    line-height: 85px;   
+}
+h2 {
+    font-size: 36px;
+    line-height: 85px;
+    top: 250px;
+}
+h3 {
+    top: 340px;
+    font-size: 24px;
+    
+}
+h4 {
+    font-size: 18px;
+    top: 420px;
+}
+
+a {
+   top: 520px;
+   background-color: #0445AF;
+   color: #fff;
+   border-radius: 5px;
+   padding: 15px 25px;
+   font-weight: bolder;
+   text-transform: uppercase;
+   font-size: 14px;
+}
+.enroll_now {
+    background-image: url("img/bf21cd40-freshgoods-cta-bg_10000000rs0f100001q028.jpg");
+   position: relative;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 450px;
+   display: flex;
+   flex-direction: column;
+   
+}
+.content_enroll {
+    margin: 0 360px;
+}
+
+.one {
+    font-size: 64px;
+    line-height: 70px;
+    font-family: Montserrat;
+    color: rgb(48, 48, 48);
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.two {
+    font-size: 17px;
+    line-height: 28px;
+    font-family: "PT Serif";
+    color: rgb(48, 48, 48);
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    text-size-adjust: none;
+    margin-top: 40px;
+}
+.btn01 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.btn {
+    background-color: #0445AF;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-style: none;
+}
+
+.fot {
+    position: absolute;
+    width: 100%;
+    height: 67px;
+    background-color: #2b261e;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* margin-top: 0; */
+    
+}
